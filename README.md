@@ -1,3 +1,7 @@
+## Sources & References
+Link: 
+- [Auction Project Live.](https://auction-project-sp2.vercel.app/)
+
 # SP2 Frontend Project
 
 This project is a frontend implementation using **Vanilla JavaScript** and **Tailwind CSS**. 
@@ -48,7 +52,7 @@ npm run dev
 Use Live Server or any static server to preview the project in the browser.
 
 ```bash
-npm run dev
+Click Go live
 ```
 
 ## Tech Stack
