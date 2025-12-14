@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Listing</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="module" src="/js/main.js"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <header class="bg-[#F5F5F5] text-white py-4">
+      <nav id="menu-container" class="container mx-auto px-0 md:px-6"></nav>
+    </header>
+    <main class="container">
+      <section class="w-full h-[260px] relative">
+        <img
+          id="profile-cover"
+          src="https://images.unsplash.com/photo-1614850715649-1d0106293bd1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="w-full h-full object-cover"
+          alt="cover"
+        />
+      </section>
+
+      <section class="flex justify-center gap-3 mt-8">
+        <button
+          id="myProfile"
+          class="bg-white text-gray-600 px-10 py-2 rounded-md border shadow-sm hover:bg-gray-50"
+        >
+          My Profile
+        </button>
+
+        <button
+          id="myListings"
+          class="bg-[#008CB1] text-white px-10 py-2 rounded-md shadow-sm hover:bg-[#007298]"
+        >
+          My Listing
+        </button>
+      </section>
+
+      <section class="max-w-4xl mx-auto mt-12">
+        <div class="flex justify-end items-center mb-4">
+          <span id="total-lists" class="text-[#707070]">Total (0)</span>
+          <button
+            id="createNewList"
+            class="bg-[#005674] mt-[30px] mr-[30px] mb-[30px] ml-auto text-white px-6 py-2 rounded-md shadow hover:bg-[#00475d]"
+          >
+            Create New List
+          </button>
+        </div>
+
+        <div id="listing-container" class="max-w-7xl mx-auto space-y-1 px-4">
+          Loading...
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
