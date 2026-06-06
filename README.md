@@ -5,6 +5,25 @@ Link:
 # SP2 Frontend Project
 
 This project is a frontend implementation using **Vanilla JavaScript** and **Tailwind CSS**. 
+
+
+## Getting Started
+
+Follow the steps below to run the project locally.
+
+### 1- Install Dependencies
+```bash
+npm install
+```
+
+### 2- Run Development Mode
+This will watch Tailwind CSS and generate the CSS file for development.
+
+```bash
+npm run start
+```
+- Application will be available at `http://localhost:5500` (or the port specified in the terminal).
+
 ##  Features
 
 - Responsive UI built with Tailwind CSS
@@ -31,29 +50,6 @@ The modal dialog UI is based on Tailwind CSS UI blocks:
 - https://tailwindcss.com/plus/ui-blocks/application-ui/overlays/modal-dialogs
 
 ---
-
-## Getting Started
-
-Follow the steps below to run the project locally.
-
-### 1- Install Dependencies
-```bash
-npm install
-```
-
-### 2- Run Development Mode
-This will watch Tailwind CSS and generate the CSS file for development.
-
-```bash
-npm run dev
-```
-
-### 3- Go Live
-Use Live Server or any static server to preview the project in the browser.
-
-```bash
-Click Go live
-```
 
 ## Tech Stack
 - HTML5
